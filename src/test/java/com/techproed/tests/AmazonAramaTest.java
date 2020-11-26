@@ -26,7 +26,7 @@ public class AmazonAramaTest extends TestBaseFinal{
         extentTest.info("Assert islemi yapiyoruz");
 
         Assert.assertTrue(yazilar.contains(ConfigurationReader.getProperty("aranilacak_kelime")));
-        System.out.print;n("Denene");
+        System.out.println("Denene");
         extentTest.pass("Testimiz PASSED !");
     }
 
